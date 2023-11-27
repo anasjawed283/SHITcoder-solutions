@@ -24,7 +24,7 @@ def merge_sorted_lists(headA, headB):
 
     return merged_head.next  # Skip the dummy node
 
-# Function to print the linked list
+# Function to print the linked list without an extra newline
 def print_linked_list(head):
     current = head
     while current is not None:
